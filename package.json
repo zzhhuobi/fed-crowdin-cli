@@ -1,0 +1,32 @@
+{
+    "name": "fed-crowdin-cli",
+    "version": "1.0.0",
+    "description": "Crowdin CLI",
+    "main": "bin/cli.js",
+    "scripts": {
+        "test": "node bin/cli"
+    },
+    "bin": {
+        "fed-crowdin-cli": "./bin/cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zzhhuobi/fed-crowdin-cli.git"
+    },
+    "keywords": [
+        "Crowdin"
+    ],
+    "author": "zhaozhenhua",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/zzhhuobi/fed-crowdin-cli/issues"
+    },
+    "homepage": "https://github.com/zzhhuobi/fed-crowdin-cli#readme",
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "commander": "^7.2.0",
+        "eslint": "^7.27.0",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {}
+}
