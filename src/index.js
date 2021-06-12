@@ -1,4 +1,4 @@
 module.exports = {
     test: '{#测试词条#}',
-    db: "{#再搞一个试试#}"
+    newTest: '{#新的测试词条#}'
 };
